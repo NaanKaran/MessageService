@@ -1,0 +1,12 @@
+﻿CREATE TABLE [dbo].[MMSLibrary]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [Type] NVARCHAR(100) NULL, 
+	[Extension] NVARCHAR(100) NULL, 
+    [BlobUrl] NVARCHAR(MAX) NULL, 
+	[Base64String] NVARCHAR(MAX) NULL, 
+	[AccountId] BIGINT NOT NULL,
+	[FileSize] BIGINT NULL,
+    [CreatedOn] DATETIME NULL, 
+    [Filename] NVARCHAR(100) NULL
+)

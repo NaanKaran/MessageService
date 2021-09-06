@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="e98e886e-f52f-42f6-8d01-3309700b6cc4" ChangeDateTime="05/16/2019 13:04:43">
+    <Property Name="ElementName" Value="[dbo].[MMSTemplate].[Created]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MMSTemplate]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CreatedOn" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="dd895fa7-4b62-4abd-9ff8-b88a4055984f" ChangeDateTime="05/17/2019 10:05:42">
+    <Property Name="ElementName" Value="[dbo].[MMSVendorSettings].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MMSVendorSettings]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AccountId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c1f7513a-ebb0-4928-969c-a55d074e0a1c" ChangeDateTime="05/17/2019 12:34:22">
+    <Property Name="ElementName" Value="[dbo].[MMSLog].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MMSLog]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SendId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7fbf17d0-4653-46ce-b2b9-5cef735ee073" ChangeDateTime="06/28/2019 09:11:32">
+    <Property Name="ElementName" Value="[dbo].[MMSJourneyInfo].[CreatedOn]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MMSJourneyInfo]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LastOn" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="513324cf-d43d-439d-9216-2d0fbac1bd8d" ChangeDateTime="06/28/2019 09:14:00">
+    <Property Name="ElementName" Value="[dbo].[MMSJourneyInfo].[LastOn]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MMSJourneyInfo]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LastRunAt" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c3b62501-b9d4-4321-a9d5-1410456c8d45" ChangeDateTime="06/28/2019 09:39:34">
+    <Property Name="ElementName" Value="[dbo].[MMSJourneyInfo].[LastRunAt]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MMSJourneyInfo]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LastTriggredAt" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c6a52d48-2e7f-42cc-85d3-acc45ec0f34c" ChangeDateTime="06/28/2019 09:39:51">
+    <Property Name="ElementName" Value="[dbo].[MMSJourneyInfo].[LastTriggredAt]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MMSJourneyInfo]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LastTriggeredAt" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d20f5322-a74a-49c0-a220-690df217a5db" ChangeDateTime="06/28/2019 09:39:57">
+    <Property Name="ElementName" Value="[dbo].[MMSJourneyInfo].[LastTriggeredAt]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MMSJourneyInfo]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LastTriggeredOn" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a132b842-c367-4679-87dc-6170e3fb95e4" ChangeDateTime="07/16/2019 10:25:21">
+    <Property Name="ElementName" Value="[dbo].[MMSBalanceThreshold].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MMSBalanceThreshold]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SettingId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="59339e78-d080-48a7-8f50-b0ea87a267f4" ChangeDateTime="07/16/2019 10:37:48">
+    <Property Name="ElementName" Value="[dbo].[MMSNotificationUsers].[RequestId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MMSNotificationUsers]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="NotifyUserId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f9373fe5-f57c-411f-8e94-4789b1071314" ChangeDateTime="07/19/2019 12:40:30">
+    <Property Name="ElementName" Value="[dbo].[MMSLibrary].[Fi]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MMSLibrary]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Filename" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d28e4055-992c-43fc-9c83-b193e99caa09" ChangeDateTime="10/03/2019 08:19:33">
+    <Property Name="ElementName" Value="[dbo].[MMSUsageDetails].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MMSUsageDetails]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DateOn" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c7e7712f-1df3-4f79-ba26-8f5d1629ca0b" ChangeDateTime="10/03/2019 10:54:31">
+    <Property Name="ElementName" Value="[dbo].[MMSUsageDetails].[DateOn]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MMSUsageDetails]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bfbc3153-5e8c-4313-a5c9-5c470bb5b742" ChangeDateTime="10/09/2019 07:29:08">
+    <Property Name="ElementName" Value="[dbo].[MMSUsageDetails].[DateOn]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MMSUsageDetails]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MonthOn" />
+  </Operation>
+</Operations>

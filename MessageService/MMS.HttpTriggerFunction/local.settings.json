@@ -1,0 +1,16 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=wechatifysms;AccountKey=E/JqhlZS5UHYPQAiLKbAOSZBNn9YkP1UQgkkcawoBXzAk455+U/8dSJR690tKtw0iIWJz7Mok+WE6bjqFtvg5A==;EndpointSuffix=core.windows.net",
+    "MandrillEmailKey": "otg84QV_tAH5P_AmoLCTNg",
+    "WeChatifyFromEmail": "noreply@tmgworldwide.com",
+    "SubmailAPIBaseUrl": "https://api.mysubmail.com/",
+    "AlertEmailId": "aswin@tmgworldwide.com,karunakaran@tmgworldwide.com",
+    "ConnectionStrings:WechatifyConnection": "Data Source=wechatify.database.windows.net;Initial Catalog=WeChatifyPRODB;User ID=wechatadmin;Password=@dminw3chat",
+    "ConnectionStrings:MessageServiceConnection": "Data Source=wechatify2.database.windows.net;Initial Catalog=WeChatifyMessageService;User ID=WeChatifyCS;Password=VV(#@tIFy!@#1;",
+    "ConnectionStrings:AzureConnection": "DefaultEndpointsProtocol=https;AccountName=wechatifysms;AccountKey=E/JqhlZS5UHYPQAiLKbAOSZBNn9YkP1UQgkkcawoBXzAk455+U/8dSJR690tKtw0iIWJz7Mok+WE6bjqFtvg5A==;EndpointSuffix=core.windows.net",
+    "ConnectionStrings:RedisConnection": "wechatifycache.redis.cache.windows.net:6380,password=AIzSOqj9J3Z95fvsZqybncnll7mhbQGXz76n9PY3Vg8=,ssl=true,abortConnect=false,keepAlive=360,connectRetry=5,writeBuffer=32500,connectTimeout=50000,syncTimeout=500000",
+    "ConnectionStrings:WechatifyAzureConnection": "DefaultEndpointsProtocol=https;AccountName=wechatify;AccountKey=bymf8z9C9+TfZQLjcYPmQCQZ6tGQJEAvRKqUjQ2V50dw21mq66HsZWGwV2kYpv4Io1JVlwcbalbHAN8iwNFzvA=="
+  }
+}

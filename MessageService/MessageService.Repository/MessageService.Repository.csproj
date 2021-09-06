@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Implementation\SMSRepository.cs" />
+    <Compile Remove="Interface\ISMSRepository.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.9.3" />
+    <PackageReference Include="CSharpSDK" Version="1.0.6" NoWarn="NU1701" />
+    <PackageReference Include="Dapper" Version="1.60.6" />
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+    <PackageReference Include="System.ServiceModel.Http" Version="4.5.3" />
+    <PackageReference Include="WindowsAzure.Storage" Version="9.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MessageService.Infrastructure\MessageService.InfraStructure.csproj" />
+    <ProjectReference Include="..\MessageService.Models\MessageService.Models.csproj" />
+    <ProjectReference Include="..\MessageService.RedisRepository\MessageService.RedisRepository.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+﻿CREATE TABLE [dbo].[MMSUsageDetails]
+(
+
+	[Id] INT IDENTITY(1,1) NOT NULL PRIMARY KEY, 
+	[AccountId] BIGINT NOT NULL,
+	[Year] INT NOT NULL,
+	[Month] TINYINT NOT NULL,
+	[RechargeCount] INT NOT NULL DEFAULT 0,
+    [UsedCount] INT NOT NULL DEFAULT 0, 
+    [Balance] INT NOT NULL DEFAULT 0, 
+ 
+)

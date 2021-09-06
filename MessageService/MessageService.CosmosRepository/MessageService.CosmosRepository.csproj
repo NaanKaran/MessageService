@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.9.3" />
+    <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.1.1" />
+    <PackageReference Include="Microsoft.Azure.CosmosDB.BulkExecutor" Version="2.3.0-preview2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MessageService.Infrastructure\MessageService.InfraStructure.csproj" />
+    <ProjectReference Include="..\MessageService.Models\MessageService.Models.csproj" />
+    <ProjectReference Include="..\MessageService.RedisRepository\MessageService.RedisRepository.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Runtime">
+      <HintPath>C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

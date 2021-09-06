@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>       
+</head>
+<body>
+    <table align="center" cellpadding="0" cellspacing="0" style="width:100%;max-width:900px;background-color: #ffffff;border:1px dashed #999;margin: 0 auto; text-align: center; font-family:Arial, sans-serif;padding:10px 0px;">
+        <tbody>
+            <tr>
+                <td width="100%" style="border-collapse: collapse">
+                    <img src="https://wechatifydev.blob.core.windows.net/common/logo.png" alt="wechatifyLogo" />
+
+                </td>
+            </tr>
+            <tr>
+                <td width="100%" style="border-collapse: collapse; text-align:center">
+                    <p style="text-align:center;color:#767676;font-size:18px;"><span style="font-weight:600;color:#464646;">MMS Delivery Report</span> from Wechatify.</p>
+                </td>
+            </tr>
+            <tr>
+                <td width="100%" style="border-collapse: collapse; text-align:center">
+                    <p style="text-align:center;color:#767676;font-size:18px;"><span style="font-weight:600;color:#464646;">From ({From}) - To ({To})- China Time</span></p>
+                </td>
+            </tr>         
+            <tr>
+                <td>
+                    <div style="width:900px;height:300px;overflow:auto;">
+                        <table align="center" cellpadding="2" cellspacing="2" style="width: 100%;background-color: #ffffff;border-bottom: 1px solid #999;border-collapse:collapse;margin: 0 auto;text-align: left;font-family: Arial,sans-serif;">
+                            <thead style="background-color:#eee;">
+                                <tr>
+                                    <th style='padding:8px;text-align:left;'>Account Name</th>
+                                    <th style='padding:8px;text-align:left;'>Action Name</th>
+                                    <th style='padding:8px;text-align:left;'>Campaigns Run Day</th>
+                                    <th style='padding:8px;text-align:left;'>Total MMS Sent</th>
+                                    <th style='padding:8px;text-align:left;'>Delivered</th>
+                                    <th style='padding:8px;text-align:left;'>Dropped</th>
+                                    <th style='padding:8px;text-align:left;'>Pending</th>
+                                    <th style='padding:8px;text-align:left;'>SendFailed</th>
+                                    <th style='padding:8px;text-align:left;'>Delivered Percentage</th>
+                                    <th style='padding:8px;text-align:left;'>Dropped Percentage</th>
+                                    <th style='padding:8px;text-align:left;'>Others Percentage</th>
+                                </tr>
+                            </thead>
+                            {AccountNameAndCount}
+                        </table>
+                        <div class="force-overflow"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td width="100%" style="border-collapse: collapse; text-align:center;margin-top:20px;">
+                    <p style="color:#767676;font-size:16px;padding:20px 0px 10px 0px;margin-bottom:0px;">Thank you for using WeChatify!</p>
+                    <p style="color:#767676;font-size:16px;padding:0px 0px 10px 0px;margin-top:0px;">The WeChatify Team </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
